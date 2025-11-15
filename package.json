@@ -1,0 +1,19 @@
+{
+  "name": "promil-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+  "dev": "pnpm --filter web-app dev",
+  "build": "pnpm --filter web-app build",
+  "preview": "pnpm --filter web-app preview",
+  "start": "pnpm --filter web-app dev",
+  "emulator": "firebase emulators:start",
+  "deploy": "pnpm --filter web-app build && firebase deploy --only hosting --project promilo-c32cd"
+},
+  "dependencies": {
+    "firebase": "^12.4.0"
+  }
+}

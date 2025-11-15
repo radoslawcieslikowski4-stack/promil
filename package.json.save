@@ -1,0 +1,27 @@
+
+
+{
+  "name": "promil-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "echo \"(root) nothing to build\"",
+    "dev": "echo \"(root) run package scripts via: pnpm --filter <pkg> dev\""
+  },
+  "pnpm": {
+    "overrides": {
+     x
+ "some-package": "1.2.3"
+    }  }
+}
+{
+  "name": "promil-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "echo \"(root) nothing to build\"",
+    "dev": "echo \"(root) run package scripts via: pnpm --filter <pkg> dev\""
+  }
+}

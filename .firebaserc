@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "promilo-c32cd",
+    "develop": "promilo-c32cd",
+    "production": "promilo-c32cd",
+    "# Zobacz jakie gałęzie są dostępne": "promilo-c32cd"
+  },
+  "targets": {},
+  "etags": {}
+}
